@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="644.0" prefWidth="727.0" style="-fx-background-color: #393737;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.plus.HelloController">
+   <children>
+      <ImageView fx:id="hs" fitHeight="106.0" fitWidth="189.0" layoutX="8.0" layoutY="92.0" onMouseClicked="#ff" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../action/download.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ec" fitHeight="95.0" fitWidth="185.0" layoutX="381.0" layoutY="98.0" onMouseClicked="#kc" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../action/two.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bc" fitHeight="95.0" fitWidth="178.0" layoutX="14.0" layoutY="501.0" onMouseClicked="#nn" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../action/four.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rs" fitHeight="95.0" fitWidth="152.0" layoutX="16.0" layoutY="399.0" onMouseClicked="#kb" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../action/thre.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gl" fitHeight="95.0" fitWidth="159.0" layoutX="4.0" layoutY="296.0" onMouseClicked="#kf" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../action/match.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="page" fitHeight="78.0" fitWidth="159.0" layoutX="3.0" layoutY="210.0" onMouseClicked="#kk" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../action/kid.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mlw" fitHeight="95.0" fitWidth="169.0" layoutX="397.0" layoutY="200.0" onMouseClicked="#kung" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../action/fu.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rn" fitHeight="95.0" fitWidth="169.0" layoutX="391.0" layoutY="310.0" onMouseClicked="#kid" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../action/karate.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="194.0" layoutY="151.0" onMouseClicked="#f" prefHeight="17.0" prefWidth="170.0" text="Fast and furious" textAlignment="CENTER" textFill="#f8f4f4">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="557.0" layoutY="151.0" onMouseClicked="#ck" prefHeight="17.0" prefWidth="170.0" text="kick boxer" textAlignment="CENTER" textFill="#fcf9f9">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="211.0" layoutY="447.0" onMouseClicked="#b" prefHeight="17.0" prefWidth="170.0" text="kick boxing" textAlignment="CENTER" textFill="#f5f4f4">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="211.0" layoutY="344.0" onMouseClicked="#fk" prefHeight="17.0" prefWidth="170.0" text="kung fu vs karate" textAlignment="CENTER" textFill="#fcfcfc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="211.0" layoutY="247.0" onMouseClicked="#k" prefHeight="17.0" prefWidth="170.0" text="karate kid 2010" textAlignment="CENTER" textFill="#fcfafa">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="541.0" layoutY="344.0" onMouseClicked="#kkd" prefHeight="17.0" prefWidth="170.0" text="karate kid" textAlignment="CENTER" textFill="#ebe9e9">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="557.0" layoutY="247.0" onMouseClicked="#ku" prefHeight="17.0" prefWidth="170.0" text="kung fu" textAlignment="CENTER" textFill="#f5f2f2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="211.0" layoutY="549.0" onMouseClicked="#n" prefHeight="17.0" prefWidth="170.0" text="ninja" textAlignment="CENTER" textFill="#f8f6f6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="274.0" layoutY="14.0" prefHeight="17.0" prefWidth="267.0" text="Action Movies" textFill="#f5f4f4">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

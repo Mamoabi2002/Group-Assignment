@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="663.0" prefWidth="735.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.plus.Romance">
+   <children>
+      <ImageView fitHeight="114.0" fitWidth="176.0" layoutX="14.0" layoutY="118.0" onMouseClicked="#church" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../rom/church.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="176.0" layoutX="503.0" layoutY="265.0" onMouseClicked="#power" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../rom/sh.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="104.0" fitWidth="106.0" layoutX="524.0" layoutY="459.0" onMouseClicked="#let" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../rom/let.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="112.0" fitWidth="176.0" layoutX="14.0" layoutY="345.0" onMouseClicked="#gueess" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../rom/q.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="104.0" fitWidth="176.0" layoutX="503.0" layoutY="119.0" onMouseClicked="#friends" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../rom/friends.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="160.0" layoutX="15.0" layoutY="235.0" onMouseClicked="#five" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../rom/images.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="176.0" layoutX="14.0" layoutY="558.0" onMouseClicked="#shine" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../rom/rt.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="186.0" layoutX="14.0" layoutY="459.0" onMouseClicked="#moment" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../rom/kiss.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="230.0" layoutY="165.0" onMouseClicked="#ch" prefHeight="27.0" prefWidth="219.0" text="I'm in love with church girl" textFill="#fcfafa">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="506.0" layoutY="385.0" onMouseClicked="#pow" prefHeight="20.0" prefWidth="171.0" text="Power of love" textFill="#f8f6f6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="524.0" layoutY="545.0" onMouseClicked="#le" prefHeight="17.0" prefWidth="171.0" text="let it shine" textFill="#f8f6f6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="232.0" layoutY="592.0" onMouseClicked="#shi" prefHeight="20.0" prefWidth="163.0" text="shine" textFill="#f8f6f6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="232.0" layoutY="385.0" onMouseClicked="#gue" prefHeight="27.0" prefWidth="219.0" text="I guess i'm in love" textFill="#f8f6f6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="233.0" layoutY="275.0" onMouseClicked="#die" prefHeight="27.0" prefWidth="219.0" text="DO or Die" textFill="#f8f6f6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="233.0" layoutY="499.0" onMouseClicked="#mom" prefHeight="17.0" prefWidth="171.0" text="IN THE MOMENT" textFill="#f8f6f6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="506.0" layoutY="222.0" onMouseClicked="#frien" prefHeight="20.0" prefWidth="171.0" text="Friends with benefits" textFill="#f8f6f6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="26.0" prefHeight="70.0" prefWidth="376.0" text="Romance movies" textFill="#f5f3f3">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

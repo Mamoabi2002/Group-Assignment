@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="710.0" prefWidth="730.0" style="-fx-background-color: #393737;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.plus.Comedy">
+   <children>
+      <ImageView fitHeight="97.0" fitWidth="171.0" layoutX="14.0" layoutY="128.0" onMouseClicked="#noko" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../comedy/noko.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="98.0" fitWidth="171.0" layoutX="427.0" layoutY="361.0" onMouseClicked="#daddy" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../comedy/daddy.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="171.0" layoutX="19.0" layoutY="571.0" onMouseClicked="#spiderman" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../comedy/download.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="171.0" layoutX="407.0" layoutY="240.0" onMouseClicked="#tom" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../comedy/tom.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="105.0" fitWidth="171.0" layoutX="374.0" layoutY="128.0" onMouseClicked="#good" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../comedy/good.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="171.0" layoutX="14.0" layoutY="468.0" onMouseClicked="#think" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../comedy/think.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="171.0" layoutX="26.0" layoutY="358.0" onMouseClicked="#superman" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../comedy/one.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="96.0" fitWidth="171.0" layoutX="9.0" layoutY="247.0" onMouseClicked="#bean" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../comedy/bean.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="202.0" layoutY="383.0" onMouseClicked="#supe" prefHeight="20.0" prefWidth="160.0" text="Superman" textFill="#f8f6f6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="564.0" layoutY="268.0" onMouseClicked="#to" prefHeight="17.0" prefWidth="171.0" text="Tom and Jerry" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="569.0" layoutY="163.0" onMouseClicked="#goo" prefHeight="20.0" prefWidth="161.0" text="A Good Year" textFill="#f8f6f6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="208.0" layoutY="616.0" onMouseClicked="#spider" prefHeight="20.0" prefWidth="147.0" text="Spiderman" textFill="#f8f6f6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="201.0" layoutY="493.0" onMouseClicked="#thic" prefHeight="20.0" prefWidth="161.0" text="Think like a man" textFill="#f8f6f6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="564.0" layoutY="348.0" onMouseClicked="#dad" prefHeight="17.0" prefWidth="171.0" text="Daddy care day" textFill="#f8f6f6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="203.0" layoutY="285.0" onMouseClicked="#be" prefHeight="17.0" prefWidth="171.0" text="Mr Bean" textFill="#f8f6f6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="196.0" layoutY="176.0" onMouseClicked="#nok" prefHeight="17.0" prefWidth="171.0" text="Noko Mashaba" textFill="#f8f6f6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="11.0" prefHeight="70.0" prefWidth="372.0" text="Comedy movies" textFill="#f2eeee">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
